@@ -1,0 +1,43 @@
+.account-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.account-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.account-card > h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.account-img {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logout-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #458f45;
+}
