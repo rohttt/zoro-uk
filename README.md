@@ -15,8 +15,5 @@ Backend:   nodejs, express, express-rate-limit, dotenv, jsonwebtoken, mongoose, 
 Database:  Mongodb
 
 
-Endpoint for the signup API - 
-http://localhost:4000/api/v1/user/signup
-
 
 
